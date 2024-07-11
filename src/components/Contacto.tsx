@@ -21,10 +21,10 @@ const Contacto = () => {
 						</h2>
 						<p className="text-md text-blue-50">
 							Estamos aquí para ayudarte a lograr la sonrisa que siempre has
-							deseado. Consulta nuestros horarios de atención y visítanos en
-							nuestra ubicación céntrica. Nuestro equipo de profesionales está
-							listo para brindarte la mejor atención. No dudes en llamarnos para
-							agendar una cita o resolver tus dudas.
+							deseado. Consulta nuestros horarios de atención y visítenos.
+							Nuestro equipo de profesionales está listo para brindarte la mejor
+							atención. No dudes en llamarnos para agendar una cita o resolver
+							tus dudas.
 						</p>
 					</div>
 				</div>
