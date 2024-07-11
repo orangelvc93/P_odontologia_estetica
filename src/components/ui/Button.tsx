@@ -6,10 +6,10 @@ type ButtonProps = {
     buttonContent: string,
 }
 
-const Button = ({ className = "bg-slate-700 text-white", urlLink = "", buttonContent = "" }: ButtonProps) => {
+const Button = ({ className = "bg-slate-700 text-white hover:bg-slate-800", urlLink = "", buttonContent = "" }: ButtonProps) => {
     return (
         <div>
-            <a href={urlLink} className={`rounded-md uppercase font-bold py-3 px-7  ${className}`}>
+            <a href={urlLink} className={`rounded-md uppercase font-bold py-3 px-7   ${className}`}>
                 {buttonContent}
             </a>
         </div>

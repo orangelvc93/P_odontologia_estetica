@@ -16,7 +16,7 @@ const Banner = () => {
                             Transforma tu <span className='text-blue-500'>sonrisa</span> con nuestros <span className='text-blue-500'>expertos en diseño dental</span>
                         </p>
                         <div className='w-1/2'>
-                            <Button className='bg-blue-500 text-white' urlLink='#' buttonContent='Contáctenos' />
+                            <Button className='bg-blue-500 hover:bg-blue-600 transition ease-in-out text-white' urlLink='#' buttonContent='Contáctenos' />
                         </div>
                     </div>
                 </div>
