@@ -11,12 +11,13 @@ const Services = () => {
 			<div className="grid grid-rows-2 grid-cols-3 gap-4">
 				{ServicesCard.map((card, i) => (
 					<div
+						key={card.id}
 						className={`flex items-center gap-2  rounded-xl max-h-[200px] px-4 py-3 shadow-md ${
 							i % 2 === 0 ? "bg-slate-100" : "bg-blue-100/50"
 						}`}
 					>
 						{card.logo}
-						<div key={card.id}>
+						<div>
 							<h3 className="font-bold text-blue-950">{card.title}</h3>
 							<p className="text-blue-950 ">{card.description}</p>
 						</div>
