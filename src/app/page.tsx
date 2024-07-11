@@ -3,7 +3,7 @@ import Contacto from "@/components/Contacto";
 import MenuBar from "@/components/MenuBar";
 import Services from "@/components/Services";
 import SuccessStories from "@/components/SuccessStories";
-import Promociones from "@/components/ui/Promociones";
+import Promociones from "@/components/Promociones";
 
 export default function Home() {
 	return (

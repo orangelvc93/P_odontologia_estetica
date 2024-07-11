@@ -54,7 +54,12 @@ const Contacto = () => {
 					</div>
 					{/* Contacto =================================== */}
 					<div className="w-full md:w-1/2 p-4 bg-gradient-to-b from-blue-100 to-blue-300 rounded-xl shadow-xl text-center">
-						<h3 className="font-bold text-blue-950 mt-5 text-lg">Contacto</h3>
+						<h3
+							id="contacto"
+							className="font-bold text-blue-950 mt-5 text-lg"
+						>
+							Contacto
+						</h3>
 						<ul className="mt-5 space-y-5">
 							<li className="flex items-center gap-5">
 								<FaMapMarkerAlt className="text-blue-950" />

@@ -6,6 +6,10 @@ import { MdDoubleArrow } from "react-icons/md";
 const Banner = () => {
 	return (
 		<>
+			<div
+				id="home"
+				className="h-1"
+			></div>
 			<div className="h-[60vh]  mt-[90px] relative w-full overflow-hidden flex justify-center items-center">
 				<Image
 					width={500}
@@ -27,7 +31,7 @@ const Banner = () => {
 						<div className="w-1/2">
 							<Button
 								className="bg-blue-500 hover:bg-blue-600 transition ease-in-out text-white"
-								urlLink="#"
+								urlLink="#contacto"
 								buttonContent="Contáctenos"
 							/>
 						</div>
@@ -45,7 +49,7 @@ const Banner = () => {
 
 			<div className="bg-blue-400 py-4 text-center flex justify-center items-center">
 				<MdDoubleArrow className="text-white text-3xl" />
-				<p className="font-bold text-white text-xl">
+				<p className="font-bold text-white text-xl ">
 					{" "}
 					TODOS LOS TRATAMIENTOS LOS REALIZAMOS CON MATERIAL DE PRIMERA CALIDAD
 					Y ALTAMENTE ESTÉTICOS{" "}

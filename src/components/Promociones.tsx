@@ -3,6 +3,10 @@ import Image from "next/image";
 const Promociones = () => {
 	return (
 		<>
+			<div
+				id="promo"
+				className="h-14"
+			></div>
 			<section className="bg-gradient-to-tr from-blue-500 to-blue-100 my-10 py-3">
 				<div className="max-w-5xl mx-auto relative bg-slate-50 shadow-xl rounded-lg my-5">
 					<Image
