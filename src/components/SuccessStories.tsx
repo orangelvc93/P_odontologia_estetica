@@ -3,28 +3,43 @@ import Image from "next/image";
 const SuccessStories = () => {
 	return (
 		<section className="">
-			<div className="max-w-5xl mx-auto relative bg-slate-50 shadow-2xl rounded-lg my-5 grid grid-cols-3 items-center p-5">
+			<div className="max-w-5xl mx-auto relative bg-slate-50 shadow-2xl rounded-lg my-5  p-5">
 				<Image
-					width={200}
-					height={200}
+					width={500}
+					height={500}
 					alt="Imagen de Promo"
-					src="/cliente1.jpeg"
-					className="w-[250px]  rounded-lg"
+					src="/casos-clinicos.png"
+					className="w-[280px]  rounded-lg absolute bottom-0 -right-0"
 				/>
-				<Image
-					width={200}
-					height={200}
-					alt="Imagen de Promo"
-					src="/cliente2.jpeg"
-					className="w-[250px]  rounded-lg"
-				/>
-				<Image
-					width={200}
-					height={200}
-					alt="Imagen de Promo"
-					src="/cliente3.jpeg"
-					className="w-[250px]  rounded-lg"
-				/>
+
+				<h2 className="text-center kalam-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg mb-5">
+					Casos clínicos realizados
+				</h2>
+
+				<div className="grid grid-cols-4">
+					<Image
+						width={500}
+						height={500}
+						alt="Imagen de Promo"
+						src="/cliente1.jpeg"
+						className="w-[250px]  rounded-lg"
+					/>
+					<Image
+						width={500}
+						height={500}
+						alt="Imagen de Promo"
+						src="/cliente2.jpeg"
+						className="w-[250px]  rounded-lg"
+					/>
+					<Image
+						width={500}
+						height={500}
+						alt="Imagen de Promo"
+						src="/cliente3.jpeg"
+						className="w-[250px]  rounded-lg"
+					/>
+					<div></div>
+				</div>
 			</div>
 		</section>
 	);

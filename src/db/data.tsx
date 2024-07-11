@@ -81,6 +81,7 @@ export const ServicesCard = [
 			/>
 		),
 		title: "Extracción",
-		description: "Extracción de terceros molares o muela del juicio.",
+		description:
+			"Piezas dentales que ya no tienen solución y terceros molares o muelas del juicio.",
 	},
 ];

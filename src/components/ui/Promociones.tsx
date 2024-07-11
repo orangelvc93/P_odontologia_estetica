@@ -7,7 +7,7 @@ const Promociones = () => {
 				<div className="max-w-5xl mx-auto relative bg-slate-50 shadow-xl rounded-lg my-5">
 					<Image
 						width={600}
-						height={200}
+						height={500}
 						alt="Imagen de Promo"
 						src="/avatar-promo.png"
 						className="absolute bottom-0 -left-[180px] shadow-black drop-shadow-2xl"
@@ -19,15 +19,15 @@ const Promociones = () => {
 					<div className="grid grid-cols-3 gap-4 pb-5 px-5">
 						<div></div>
 						<Image
-							width={200}
-							height={200}
+							width={500}
+							height={500}
 							alt="Imagen de Promo"
 							src="/promo1.jpg"
 							className="w-full h-full shadow-black drop-shadow-lg rounded-lg"
 						/>
 						<Image
-							width={200}
-							height={200}
+							width={500}
+							height={500}
 							alt="Imagen de Promo"
 							src="/promo2.jpg"
 							className="w-full h-full shadow-black drop-shadow-lg rounded-lg"
