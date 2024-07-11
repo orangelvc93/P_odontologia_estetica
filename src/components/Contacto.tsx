@@ -16,10 +16,10 @@ const Contacto = () => {
 						className=" h-[200px] object-cover object-left-bottom rounded-lg shadow-xl"
 					/>
 					<div className="">
-						<h2 className="text-2xl my-3 text-blue-800 font-bold drop-shadow-md">
+						<h2 className="text-2xl my-3 text-blue-50 font-bold drop-shadow-md">
 							Contáctanos y Visítanos
 						</h2>
-						<p className="text-md text-blue-950">
+						<p className="text-md text-blue-50">
 							Estamos aquí para ayudarte a lograr la sonrisa que siempre has
 							deseado. Consulta nuestros horarios de atención y visítanos en
 							nuestra ubicación céntrica. Nuestro equipo de profesionales está

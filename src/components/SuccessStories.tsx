@@ -12,7 +12,7 @@ const SuccessStories = () => {
 					className="w-[280px]  rounded-lg absolute bottom-0 -right-0"
 				/>
 
-				<h2 className="text-center kalam-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg mb-5">
+				<h2 className="text-center font-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg mb-5">
 					Casos clínicos realizados
 				</h2>
 

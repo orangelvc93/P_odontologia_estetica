@@ -5,7 +5,7 @@ import { TbDental } from "react-icons/tb";
 const Services = () => {
 	return (
 		<section className="max-w-5xl mx-auto ">
-			<h2 className="text-center my-10 kalam-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg">
+			<h2 className="text-center my-10 font-bold italic  text-3xl text-blue-500 shadow-black drop-shadow-lg">
 				Mira lo que brindamos para tu salud
 			</h2>
 			<div className="grid grid-rows-2 grid-cols-3 gap-4">

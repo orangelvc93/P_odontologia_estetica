@@ -12,7 +12,7 @@ const Promociones = () => {
 						src="/avatar-promo.png"
 						className="absolute bottom-0 -left-[180px] shadow-black drop-shadow-2xl"
 					/>
-					<h2 className="text-center p-5 kalam-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg">
+					<h2 className="text-center p-5 font-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg">
 						Promociones
 					</h2>
 
