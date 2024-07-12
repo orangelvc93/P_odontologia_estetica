@@ -35,7 +35,7 @@ const MenuBar = () => {
 
 					{/* ===========Menu ======================== */}
 					<ul
-						className={`fixed top-0 left-0 bg-white text-slate-800 bg-opacity-70 backdrop-filter backdrop-blur-lg h-[100vw] w-full flex flex-col items-center pt-28 gap-5 font-bold text-md lg:flex-row lg:static lg:w-auto lg:h-auto lg:bg-transparent lg:backdrop-filter-none lg:backdrop-blur-none lg:pt-0 ${
+						className={`fixed top-0 left-0 bg-white text-slate-800  backdrop-filter backdrop-blur-lg h-[100vw] w-full flex flex-col items-center pt-28 gap-5 font-bold text-md lg:flex-row lg:static lg:w-auto lg:h-auto lg:bg-transparent lg:backdrop-filter-none lg:backdrop-blur-none lg:pt-0 ${
 							openMenu ? "translate-x-0" : "translate-x-full"
 						} transition-transform duration-300 ease-in-out lg:transform-none`}
 					>

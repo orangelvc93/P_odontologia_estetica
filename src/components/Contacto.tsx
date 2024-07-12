@@ -11,14 +11,14 @@ const Contacto = () => {
 				className="h-14"
 			></div>
 			<section className="bg-gradient-to-tr from-blue-500 to-blue-100 mt-10">
-				<div className="max-w-5xl mx-auto flex gap-3 flex-col md:flex-row py-7 px-5 lg:px-0">
-					<div className="w-full md:w-1/2">
+				<div className="max-w-5xl mx-auto flex gap-3 flex-col lg:flex-row py-7 px-5 lg:px-0">
+					<div className="w-full lg:w-1/2">
 						<Image
 							width={500}
 							height={200}
 							alt="Imagen de Promo"
 							src="/fondo-banner.jpg"
-							className=" h-[200px] object-cover object-left-bottom rounded-lg shadow-xl"
+							className=" h-[200px] object-cover object-left-bottom rounded-lg shadow-xl w-full"
 						/>
 						<div className="">
 							<h2 className="text-2xl my-3 text-blue-50 font-bold drop-shadow-md text-center md:text-left">
@@ -33,16 +33,16 @@ const Contacto = () => {
 							</p>
 						</div>
 					</div>
-					<div className="w-full md:w-1/2 flex gap-4">
+					<div className="w-full lg:w-1/2 flex flex-col md:flex-row gap-4">
 						{/* Horarios de atención ====================== */}
-						<div className="w-full md:w-1/2 p-4 bg-gradient-to-t from-slate-50 to-slate-100 rounded-xl shadow-xl text-center">
-							<h3 className="font-bold text-blue-950 mt-5 lg:text-lg text-sm">
+						<div className="w-full md:w-1/2 p-5 md:p-4 bg-gradient-to-t from-slate-50 to-slate-100 rounded-xl shadow-xl text-center">
+							<h3 className="font-bold text-blue-950 mt-5 lg:text-lg text-xl ">
 								Horarios de atención
 							</h3>
-							<p className=" mb-8 opacity-60  lg:text-lg text-sm">
+							<p className=" mb-8 opacity-60  lg:text-lg text-xl">
 								Nuestros horarios están diseñados para adaptarse a tu agenda
 							</p>
-							<ul className="mt-2 text-gray-700 space-y-2  lg:text-lg text-sm">
+							<ul className="mt-2 text-gray-700 space-y-2  lg:text-lg text-xl">
 								<li>
 									<p className="font-bold">Lunes a Viernes</p>{" "}
 									<p className="opacity-70">8:00 AM - 6:00 PM</p>
@@ -58,14 +58,14 @@ const Contacto = () => {
 							</ul>
 						</div>
 						{/* Contacto =================================== */}
-						<div className="w-full md:w-1/2 p-4 bg-gradient-to-b from-blue-100 to-blue-300 rounded-xl shadow-xl text-center">
+						<div className="w-full md:w-1/2 p-5 md:p-4 bg-gradient-to-b from-blue-100 to-blue-300 rounded-xl shadow-xl text-center">
 							<h3
 								id="contacto"
-								className="font-bold text-blue-950 mt-5  lg:text-lg text-sm"
+								className="font-bold text-blue-950 mt-5  lg:text-lg text-xl"
 							>
 								Contacto
 							</h3>
-							<ul className="mt-5 space-y-5  lg:text-lg text-sm">
+							<ul className="mt-5 space-y-5  lg:text-lg text-xl">
 								<li className="flex items-center gap-5">
 									<FaMapMarkerAlt className="text-blue-950" />
 									<p className="text-left text-blue-950">
