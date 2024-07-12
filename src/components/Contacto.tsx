@@ -24,7 +24,7 @@ const Contacto = () => {
 							<h2 className="text-2xl my-3 text-blue-50 font-bold drop-shadow-md text-center md:text-left">
 								Contáctanos y Visítanos
 							</h2>
-							<p className="text-md text-blue-50 text-center md:text-left mb-10 md:mb-0">
+							<p className="text-md text-white text-center md:text-left mb-10 md:mb-0">
 								Estamos aquí para ayudarte a lograr la sonrisa que siempre has
 								deseado. Consulta nuestros horarios de atención y visítenos.
 								Nuestro equipo de profesionales está listo para brindarte la

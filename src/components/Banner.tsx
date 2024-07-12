@@ -30,7 +30,7 @@ const Banner = () => {
 						</p>
 						<div className="lg:w-1/2">
 							<Button
-								className="bg-blue-500 hover:bg-blue-600 transition ease-in-out text-white"
+								className="bg-blue-950 hover:bg-blue-900 transition ease-in-out text-white"
 								urlLink="#contacto"
 								buttonContent="Contáctenos"
 							/>
@@ -47,7 +47,7 @@ const Banner = () => {
 				/>
 			</div>
 
-			<div className="bg-blue-400 py-4 text-center flex justify-center items-center px-3 md:px-5 lg:px-0">
+			<div className="bg-slate-800 py-4 text-center flex justify-center items-center px-3 md:px-5 lg:px-0">
 				<MdDoubleArrow className="text-white text-3xl hidden lg:flex" />
 				<p className="font-bold text-white text-xl ">
 					{" "}

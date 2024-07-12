@@ -28,7 +28,7 @@ const MenuBar = () => {
 					{/* ===========Menu Movil ================ */}
 					<button
 						onClick={toogleMenu}
-						className="z-40 text-blue-500 lg:hidden focus:outline-none pr-4"
+						className="z-40 text-[#6BC3CE] lg:hidden focus:outline-none pr-4"
 					>
 						{openMenu ? <FaTimes size={30} /> : <FaBars size={30} />}
 					</button>
