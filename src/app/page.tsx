@@ -4,6 +4,7 @@ import MenuBar from "@/components/MenuBar";
 import Services from "@/components/Services";
 import SuccessStories from "@/components/SuccessStories";
 import Promociones from "@/components/Promociones";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 				<SuccessStories />
 				<Contacto />
 			</main>
+			<Footer />
 		</>
 	);
 }

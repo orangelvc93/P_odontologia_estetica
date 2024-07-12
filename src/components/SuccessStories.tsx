@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Title from "./ui/Title";
 
 const SuccessStories = () => {
 	return (
@@ -15,14 +16,12 @@ const SuccessStories = () => {
 						height={500}
 						alt="Imagen de Promo"
 						src="/casos-clinicos.png"
-						className="w-[280px]  rounded-lg absolute bottom-0 -right-0"
+						className="hidden md:flex md:w-[230px] lg:w-[330px]  rounded-lg absolute bottom-0 -right-0"
 					/>
 
-					<h2 className="text-center font-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg mb-5">
-						Casos clínicos realizados
-					</h2>
+					<Title name="Casos clínicos realizados" />
 
-					<div className="grid grid-cols-4">
+					<div className="grid justify-center md:grid-cols-4">
 						<Image
 							width={500}
 							height={500}

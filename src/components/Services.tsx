@@ -1,19 +1,17 @@
 import { ServicesCard } from "@/db/data";
-import Image from "next/image";
-import { TbDental } from "react-icons/tb";
+
+import Title from "./ui/Title";
 
 const Services = () => {
 	return (
 		<>
 			<div
 				id="services"
-				className="h-14"
+				className="h-16 "
 			></div>
 			<section className="max-w-5xl mx-auto ">
-				<h2 className="text-center my-10 font-bold italic  text-3xl text-blue-500 shadow-black drop-shadow-lg">
-					Mira lo que brindamos para tu salud
-				</h2>
-				<div className="grid grid-rows-2 grid-cols-3 gap-4">
+				<Title name="Mira lo que brindamos para tu salud" />
+				<div className="flex flex-col sm:grid lg:grid-rows-2 lg:grid-cols-3 sm:grid-cols-2 gap-4 px-5">
 					{ServicesCard.map((card, i) => (
 						<div
 							key={card.id}

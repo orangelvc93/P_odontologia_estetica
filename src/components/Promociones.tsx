@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Title from "./ui/Title";
 
 const Promociones = () => {
 	return (
@@ -14,13 +15,11 @@ const Promociones = () => {
 						height={500}
 						alt="Imagen de Promo"
 						src="/avatar-promo.png"
-						className="absolute bottom-0 -left-[180px] shadow-black drop-shadow-2xl"
+						className="absolute bottom-0 lg:-left-[180px] lg:w-[600px] shadow-black drop-shadow-2xl hidden md:flex md:w-[400px] md:-left-[90px]"
 					/>
-					<h2 className="text-center p-5 font-bold italic text-3xl text-blue-500 shadow-black drop-shadow-lg">
-						Promociones
-					</h2>
+					<Title name="Promociones" />
 
-					<div className="grid grid-cols-3 gap-4 pb-5 px-5">
+					<div className="grid  md:grid-cols-3 gap-4 pb-5 px-5">
 						<div></div>
 						<Image
 							width={500}
