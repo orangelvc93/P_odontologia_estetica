@@ -45,15 +45,11 @@ const Contacto = () => {
 							<ul className="mt-2 text-gray-700 space-y-2  lg:text-lg text-xl">
 								<li>
 									<p className="font-bold">Lunes a Viernes</p>{" "}
-									<p className="opacity-70">8:00 AM - 6:00 PM</p>
+									<p className="opacity-70">9:00 AM - 7:00 PM</p>
 								</li>
 								<li>
 									<p className="font-bold">Sábados</p>{" "}
-									<p className="opacity-70">8:00 AM - 6:00 PM</p>
-								</li>
-								<li>
-									<p className="font-bold">Domingos</p>{" "}
-									<p className="opacity-70">8:00 AM - 6:00 PM</p>
+									<p className="opacity-70">9:00 AM - 1:00 PM</p>
 								</li>
 							</ul>
 						</div>
