@@ -18,7 +18,7 @@ const Footer = () => {
 						<h4 className="text-xl font-bold mb-2">Contáctenos</h4>
 						<p>Dirección: Av. 6 de diciembre y el inca.</p>
 						<p>Teléfono: 099 7291952</p>
-						<p>Email: info@clinicadental.com</p>
+						<p>Email: drmnovoab@hotmail.com</p>
 					</div>
 				</div>
 				<div className="border-t border-white border-opacity-50 mt-4 pt-4 text-center md:text-left">
