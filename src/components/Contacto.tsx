@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import Link from "next/link";
+import { FaFacebook, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 import { IoShareSocialSharp } from "react-icons/io5";
 
@@ -17,7 +19,7 @@ const Contacto = () => {
 							width={500}
 							height={200}
 							alt="Imagen de Promo"
-							src="/fondo-banner.jpg"
+							src="/consultorio.jpeg"
 							className=" h-[200px] object-cover object-left-bottom rounded-lg shadow-xl w-full"
 						/>
 						<div className="">
@@ -84,7 +86,26 @@ const Contacto = () => {
 								</li>
 								<li className="flex items-center gap-5">
 									<IoShareSocialSharp className="text-blue-950" />
-									<p className="text-left text-blue-950">Iconos sociales</p>
+									<div className="flex gap-3">
+										<Link
+											href={"#"}
+											className="text-left text-blue-950 text-2xl"
+										>
+											<FaFacebook />
+										</Link>
+										<Link
+											href={"#"}
+											className="text-left text-blue-950 text-2xl"
+										>
+											<FaSquareInstagram />
+										</Link>
+										<Link
+											href={"#"}
+											className="text-left text-blue-950 text-2xl"
+										>
+											<FaXTwitter />
+										</Link>
+									</div>
 								</li>
 							</ul>
 						</div>
