@@ -41,9 +41,9 @@ export const ServicesCard = [
 				color="#60A5FA"
 			/>
 		),
-		title: "Profilaxis o limpieza dental profunda.",
+		title: "Profilaxis ó limpieza dental profunda y blanqueamiento dental.",
 		description:
-			"Eliminamos la placa y el sarro acumulados, previniendo enfermedades bucales y manteniendo una sonrisa saludable.",
+			"Eliminamos la placa y el sarro acumulados, previniendo enfermedades bucales y manteniendo una sonrisa saludable y hermosa.",
 	},
 	{
 		id: 4,
@@ -80,8 +80,8 @@ export const ServicesCard = [
 				color="#60A5FA"
 			/>
 		),
-		title: "Extracción",
+		title: "Endodoncia",
 		description:
-			"Piezas dentales que ya no tienen solución y terceros molares o muelas del juicio.",
+			"Extracción de terceros molares o muelas del juicio y piezas dentales que ya no tengan solución.",
 	},
 ];
