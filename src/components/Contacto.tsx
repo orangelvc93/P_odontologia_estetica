@@ -80,7 +80,7 @@ const Contacto = () => {
 								</li>
 								<li className="flex items-center gap-5">
 									<IoIosMail className="text-blue-950" />
-									<p className="text-left text-blue-950">
+									<p className="text-left text-blue-950 text-sm">
 										drmnovoab@hotmail.com
 									</p>
 								</li>
